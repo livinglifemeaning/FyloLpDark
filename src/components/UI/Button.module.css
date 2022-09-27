@@ -1,0 +1,14 @@
+.btn{
+    background: linear-gradient(90deg, var(--c-cyan) , var(--c-blue) ); 
+    padding: 1rem 4rem; 
+    border-radius: 3rem; 
+    cursor: pointer; 
+    font-weight: 700; 
+    font-size: .9rem; 
+    font-family: var(--f-Raleway);
+    letter-spacing: .05em; 
+}
+
+.btn:hover{
+background: hsl(176, 68%, 64%); 
+}

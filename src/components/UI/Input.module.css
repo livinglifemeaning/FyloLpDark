@@ -1,0 +1,11 @@
+.input{
+    width: 280px; 
+    padding: 1rem 2rem; 
+    border-radius: 3rem; 
+    font-size: .9rem; 
+    color: var(--c-blue13)
+}
+
+.input:focus-visible{
+    outline: none; 
+}

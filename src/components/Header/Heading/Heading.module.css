@@ -1,0 +1,38 @@
+.heading{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+.logo{
+    width: 80px; 
+}
+.nav{
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none;
+    display: flex; 
+    gap: 1rem; 
+}
+
+.nav li{
+    cursor: pointer
+
+}
+
+.nav li:hover{
+    text-decoration: underline;
+    font-weight: 700; 
+}
+
+@media (min-width: 750px) {
+    .logo{
+        width: 120px; 
+    }
+    .nav{
+        gap: 2rem; 
+    
+    }
+
+    
+}

@@ -1,0 +1,8 @@
+@import "./reset.css";
+@import "./variables.css"; 
+
+body{
+    color: var(--c-white); 
+    font-family: var(--f-Sans);
+    background-color: var(--c-blue13);
+}

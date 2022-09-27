@@ -1,0 +1,33 @@
+.review{
+    background-color: var(--c-blue18); 
+    padding: 2rem 1rem; 
+    border-radius: 5px; 
+    max-width: 360px; 
+    position: relative; 
+    z-index: 5; 
+}
+
+.profileBox{
+    display: flex; 
+    gap: 1rem;
+    align-items: center; 
+}
+
+.profileBox img{
+    width: 50px; 
+    border-radius: 50%; 
+}
+
+.message{
+    font-size: .9rem; 
+    margin-bottoM: 2rem; 
+}
+.name{
+    font-weight: 700; 
+    font-family: var(--f-Raleway);
+}
+
+.position{
+    font-size: .8rem; 
+    font-family: var(--f-Raleway); 
+}

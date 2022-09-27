@@ -1,0 +1,14 @@
+.features{
+    display: flex; 
+    flex-direction: column; 
+    gap: 5rem; 
+    justify-content: center;
+}
+@media (min-width: 750px) {
+    .features{
+        flex-direction: row;
+        flex-wrap: wrap; 
+        max-height: 60rem;
+    
+    }
+}

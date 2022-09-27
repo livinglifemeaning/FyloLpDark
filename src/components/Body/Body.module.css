@@ -1,0 +1,74 @@
+.body{
+    padding: 0 var(--p-mobile); 
+    background-color: var(--c-blue13);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.earlyAccess{
+    background-color: var(--c-blue15);
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+    padding: 2rem .5rem; 
+    border-radius: 5px; 
+    translate: 0 45%; 
+}
+
+.title{
+    font-family: var(--f-Raleway); 
+    font-weight: 700; 
+    font-size: 1.2rem;
+}
+
+.message{
+    margin: .5rem 0 2rem; 
+    font-size: .975rem; 
+}
+
+.earlyAccess div{
+ margin-top: 2rem;
+}
+
+.invalid{
+    color: var(--c-red); 
+    text-align: left; 
+    align-self: flex-start;
+    margin-top: .2rem; 
+    margin-left: 2rem; 
+    font-weight: 700; 
+    font-size: .8rem; 
+}
+
+@media (min-width: 750px) {
+    .body{
+        padding: 0 var(--p-desktop); 
+    }
+    .title{
+        font-size: 1.8rem; 
+    }
+    .earlyAccess{
+        padding: 3rem 5rem; 
+
+    }
+
+    .earlyAccess div{
+        margin: 0; 
+    }
+   .message{
+    max-width: 40rem; 
+   }
+    .buttonBox{
+      display: flex; 
+      position: relative; 
+      gap: 3rem; 
+    }
+    .invalid{
+        margin: 0; 
+        position: absolute; 
+        bottom: -25px; 
+        left: 30px; 
+    }
+}

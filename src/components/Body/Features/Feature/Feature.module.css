@@ -1,0 +1,18 @@
+.feature{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    max-width: 28rem; 
+}
+.title{
+    font-family: var(--f-Raleway);
+    font-weight: 700; 
+    font-size: 1.2rem; 
+    margin: 2rem 0 .5rem; 
+}
+
+.feature img{
+  height: 100px; 
+}

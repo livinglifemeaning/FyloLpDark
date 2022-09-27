@@ -1,0 +1,30 @@
+.hero{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem; 
+    position: relative; 
+    z-index: 5;  
+    max-width: 38rem; 
+    
+}
+
+.title{
+    font-family: var(--f-Raleway); 
+    font-weight: 700; 
+    font-size: 1.6rem; 
+    margin: 3rem 0 1rem; 
+}
+
+.desc{
+    margin-bottom: 1.5rem; 
+    max-width: 30rem; 
+}
+
+@media (min-width: 750px) {
+    .title{
+        font-size: 2.2rem; 
+    }
+}

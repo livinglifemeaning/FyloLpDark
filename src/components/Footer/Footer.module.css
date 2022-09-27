@@ -1,0 +1,20 @@
+.footer{
+    padding: 15rem var(--p-mobile) 3rem; 
+    background-color: var(--c-blue9);
+}
+
+.logo{
+    margin-bottom: 3rem; 
+}
+
+@media (min-width: 750px) {
+    .footer{
+        padding: 15rem var(--p-desktop) 3rem; 
+        
+    }
+
+    .flexBox{
+        display: flex; 
+        justify-content: space-between;
+    }
+}

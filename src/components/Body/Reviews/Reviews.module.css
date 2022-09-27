@@ -1,0 +1,22 @@
+.reviews{
+    display:flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+    position: relative; 
+}
+
+.quote{
+    position: absolute; 
+    top: -45px; 
+    left: 10px; 
+}
+
+@media (min-width: 750px) {
+    .reviews{
+        flex-direction: row;
+    }
+    .quote{
+        top: -35px; 
+        left: -8px; 
+    }
+}

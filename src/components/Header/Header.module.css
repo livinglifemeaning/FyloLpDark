@@ -1,0 +1,33 @@
+.header {
+  padding: 2rem var(--p-mobile) 10rem;
+  background-color: var(--c-blue15);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bgImg {
+  position: absolute;
+  bottom: 250px;
+  width: 100%;
+  left: 0;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--c-blue13);
+}
+
+@media (min-width: 750px) {
+  .header {
+    padding: 4rem var(--p-desktop) 10rem;
+  }
+  .bgImg {
+    bottom: 0;
+  }
+}
