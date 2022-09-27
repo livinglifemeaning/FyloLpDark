@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FyloLpDark/static/css/main.ce6940d9.css",
+    "main.js": "/FyloLpDark/static/js/main.8d177b6f.js",
+    "static/media/illustration-intro.png": "/FyloLpDark/static/media/illustration-intro.c20d85255009f195b4a6.png",
+    "static/media/illustration-stay-productive.png": "/FyloLpDark/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
+    "static/media/icon-collaboration.svg": "/FyloLpDark/static/media/icon-collaboration.6c80c0a4c84274f029eb51c36f603765.svg",
+    "static/media/logo.svg": "/FyloLpDark/static/media/logo.f5363383bf279490c4aba63ca2917a80.svg",
+    "static/media/icon-access-anywhere.svg": "/FyloLpDark/static/media/icon-access-anywhere.2856c661b15230024a11eb4b089dd3f1.svg",
+    "static/media/icon-any-file.svg": "/FyloLpDark/static/media/icon-any-file.fc9b91ba9923102f3aa45c19bc3244e6.svg",
+    "static/media/icon-security.svg": "/FyloLpDark/static/media/icon-security.b6a932b6269cf10d3339e0a3d22c8b4e.svg",
+    "index.html": "/FyloLpDark/index.html",
+    "static/media/bg-curvy-desktop.svg": "/FyloLpDark/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d8cf1140c09e2.svg",
+    "static/media/bg-curvy-mobile.svg": "/FyloLpDark/static/media/bg-curvy-mobile.3ab5d2c7091bda722a7b84824c5a0ce9.svg",
+    "static/media/icon-phone.svg": "/FyloLpDark/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
+    "static/media/icon-location.svg": "/FyloLpDark/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
+    "static/media/icon-email.svg": "/FyloLpDark/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
+    "main.ce6940d9.css.map": "/FyloLpDark/static/css/main.ce6940d9.css.map",
+    "main.8d177b6f.js.map": "/FyloLpDark/static/js/main.8d177b6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce6940d9.css",
+    "static/js/main.8d177b6f.js"
+  ]
+}
